@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "contextstream": {
+      "headers": {
+        "Authorization": "Bearer ${CONTEXTSTREAM_API_KEY}"
+      },
+      "serverUrl": "https://mcp.contextstream.io/mcp",
+      "variables": [
+        {
+          "description": "Your ContextStream API key. Create one in your account under API keys.",
+          "link": "https://contextstream.io/account/api-keys",
+          "name": "CONTEXTSTREAM_API_KEY",
+          "title": "ContextStream API key"
+        }
+      ]
+    }
+  }
+}

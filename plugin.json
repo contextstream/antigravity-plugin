@@ -1,0 +1,28 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "author": {
+    "name": "ContextStream",
+    "url": "https://contextstream.io"
+  },
+  "description": "ContextStream: persistent memory, decisions, lessons, plans and indexed code search for every session.",
+  "displayName": "ContextStream",
+  "homepage": "https://contextstream.io",
+  "keywords": [
+    "memory",
+    "context",
+    "code-search",
+    "mcp",
+    "decisions",
+    "lessons"
+  ],
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "name": "contextstream",
+  "repository": "https://github.com/contextstream/mcp-server",
+  "suggestedPrompts": [
+    "Ground this session with ContextStream",
+    "Search this codebase with ContextStream before grepping",
+    "Save this decision to ContextStream memory"
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,30 @@
+{
+  "contextstream": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "command": "contextstream-mcp hook agy-post-tool-use --contextstream-managed-hook=v1 2>/dev/null || echo '{}'",
+            "timeout": 5,
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      }
+    ],
+    "PreInvocation": [
+      {
+        "command": "contextstream-mcp hook agy-pre-invocation --contextstream-managed-hook=v1 2>/dev/null || echo '{}'",
+        "timeout": 5,
+        "type": "command"
+      }
+    ],
+    "SessionStart": [
+      {
+        "command": "contextstream-mcp hook agy-session-start --contextstream-managed-hook=v1 2>/dev/null || echo '{}'",
+        "timeout": 10,
+        "type": "command"
+      }
+    ]
+  }
+}
