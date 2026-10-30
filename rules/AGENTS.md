@@ -1,5 +1,5 @@
 <contextstream>
-<!-- contextstream-rules-hash: dd26d6e62bdede4e -->
+<!-- contextstream-rules-hash: 2d3ca53013e9d67b -->
 # ContextStream Rules
 <!-- contextstream-teaching-version: harness_teaching_v4 -->
 ## Core ContextStream Workflow (harness_teaching_v4)
